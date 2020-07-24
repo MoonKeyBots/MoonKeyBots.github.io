@@ -1,0 +1,154 @@
+@font-face {
+	font-family: "Lato-Regular";
+	src: url("../fonts/Lato-Regular.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+}
+@font-face {
+	font-family: "Raleway-Light";
+	src: url("../fonts/Raleway-Light.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+} 
+@font-face {
+	font-family: "Raleway-Regular";
+	src: url("../fonts/Raleway-Regular.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+} 
+
+a { 
+    text-decoration: none;
+} 
+
+li {
+    list-style-type: none;
+     /* Убираем маркеры */
+}
+
+ul {
+	margin-left: 0; /* Отступ слева в браузере IE и Opera */
+	padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+	padding: 0;
+	margin: 0;
+}
+
+.header {
+	max-width: 100%;
+	height: 175px;
+	background-color: #000;
+}
+
+.logo {
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	background-image: url('../images/MK60x60.png');
+	position: absolute;
+	top: 6em;
+	left: 11.7em;
+}
+
+.title {
+	font-family: "Lato-Regular";
+	position: absolute;
+	top: 4.2em;
+	left: 4.6em;
+	font-size: 40px;
+}
+
+.subtitle {
+	font-family: "Raleway-Regular";
+	position: absolute;
+	top: 16em;
+	left: 13.3em;
+	font-size: 14px;
+}
+
+.projects_title {
+	font-family: "Raleway-Regular";
+	position: absolute;
+	top: 12em;
+	left: 7.7em;
+}
+.Projects_cs {
+	font-family: "Raleway-Light";
+	position: absolute;
+	margin-top: -1em;
+	top: 23em;
+	left: 11.5em;
+}
+.lcs {
+	background-image: url('../images/cs.png');
+	width: 60px;
+	height: 60px;
+	border-radius: 10px;
+}
+.bcs {
+	color: #000;
+	width: 200px;
+	position: absolute;
+	top: -0.95em;
+	left: 4.5em;
+}
+.team {
+	width: 100%;
+	height: 682px;
+	position: absolute;
+	top: 26em;
+	left: 7em;
+}
+
+.titleteam {
+	font-family: "Raleway-Light";
+	position: absolute;
+	left: 3.1em;
+}
+
+p {
+    margin-top: -0.7em; /* Отступ сверху */
+    margin-bottom: 1em; /* Отступ снизу */
+    font-size: 12px;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+.team_vd {
+	font-family: "Raleway-Light";
+	position: absolute;
+	margin-top: -1em;
+	top: 5em;
+	left: 4.7em;
+}
+
+.team_mf {
+	font-family: "Raleway-Light";
+	position: absolute;
+	padding: 0;
+    margin-top: 4em;
+	top: 5em;
+	left: 4.7em;
+}
+
+.lvd {
+	background-image: url('../images/hand.png');
+	width: 60px;
+	height: 60px;
+	border-radius: 10px;
+}
+
+.lmf {
+	background-image: url('../images/man.png');
+	width: 60px;
+	height: 60px;
+	border-radius: 10px;
+}
+.bvd {
+	color: #000;
+	width: 200px;
+	position: absolute;
+	top: -0.95em;
+	left: 4.5em;
+}
