@@ -2,4 +2,5 @@
 Наша команда специализируется по разработке чат-ботов для ВКонтакте
 
 # Наши разработки
-* [CS:GO PaperScroll](https://vk.com/cspaperscroll)
+* [CS:GO PaperScroll](https://vk.com/club187158191)
+* [Бот Арбуз](https://vk.com/club197442264)
