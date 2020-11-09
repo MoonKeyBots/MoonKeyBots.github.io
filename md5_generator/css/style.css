@@ -37,6 +37,11 @@ body {
   --group-background-focus: #678EFE;
 }
 
+#vk_poll {
+	margin-top: 100px;
+	width: 500px;	
+}
+
 .logo {
   width: 60px;
   height: 60px;
